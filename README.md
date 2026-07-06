@@ -6,7 +6,7 @@ TensorFlow is an open-source framework for machine learning and artificial intel
 Supports a wide range of applications such as NLP, computer vision, time series forecasting and reinforcement learning
 Enables scalable model development and deployment across devices
 <img width="391" height="400" alt="image" src="https://github.com/user-attachments/assets/178ed1ad-e604-4346-bfc8-0961c269fdc8" />
-Key Features
+
 
 
 **1. Scalability
