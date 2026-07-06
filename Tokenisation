@@ -1,0 +1,18 @@
+! pip install nltk
+from nltk.tokenize import word_tokenize
+
+import nltk
+nltk.download('punkt')
+
+import nltk
+nltk.download('punkt_tab')
+
+text = "Tokenization is important in NLP"
+print(word_tokenize(text))
+
+import spacy
+
+np = spacy.load("en_core_web_sm")
+doc = np("Tokenization is important in NLP")
+for token in doc:
+  print(token.text, end = " ")
